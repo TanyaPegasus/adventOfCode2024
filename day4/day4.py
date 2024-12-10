@@ -100,23 +100,3 @@ def main_day_4():
 if __name__ == "__main__":
     main_day_4()
     
-
-
-
-# if check_index_is_safe((i + loc[0] + loc[0] +loc[0], j + loc[1] + loc[1] + loc[1]), full_list):
-#             if not full_list[i + loc[0] + loc[0] + loc[0]][j + loc[1] + loc[1] + loc[1]] == "S":
-#                 continue
-#             total += 1
-
-#  for loc in locations_to_check:
-#         loc_x = i + loc[0]
-#         loc_y = j + loc[0]
-#         if not full_list[i + loc[0]][j + loc[1]] == "M":
-#             continue
-#         if check_index_is_safe((i + loc[0] + loc[0], j + loc[1] + loc[1]), full_list):
-#             if not full_list[i + loc[0] + loc[0]][j + loc[1] + loc[1]] == "A":
-#                 continue
-#         if check_index_is_safe((i + loc[0] + loc[0] +loc[0], j + loc[1] + loc[1] + loc[1]), full_list):
-#             if not full_list[i + loc[0] + loc[0] + loc[0]][j + loc[1] + loc[1] + loc[1]] == "S":
-#                 continue
-#             total += 1
